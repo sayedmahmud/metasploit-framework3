@@ -1,0 +1,125 @@
+[*] running method core_negotiate_tlv_encryption
+[*] Negotiating TLV encryption
+[*] RSA key: 30820122300d06092a864886f70d01010105000382010f003082010a0282010100ac7e1fe0f29766333e3bca34a3260069077b9c01a1b58cad6ef4c49f0c503f4ce974def8e3a9525a5525258ecbdb5b9ed2695e90dabbf1f99cd18bd520f55f9b3b6a8da3283ea9c32ea42e07141dcfc94244568542bdae832802fe27c03dac870f88fd2f1d6918fb294337f7c147a181b8c231a0835107c90caaa18cbb629ca68faebcec90070b8e36a697dfe4b9863a7125522f20a5bdfd82947492ec4aaf59cb689dbf8c575a7b8b75a5bfc2e442929b800ecfe795d530aaf22a0d84591826a719ca79be2f16165bd0d9b73c8ea838caf05fdf76bb455aa16ef4250f1072a25b92554d5a4a14e2d05a43fed5c453695fe7602ccf45f646005d90e1b8812bbb0203010001
+[*] AES key: 0xe656a1d94096ba6e7cdd1df74ad712371335d138be0253d58419e43f6af50281
+[*] Encrypted AES key: 0xaafe7e3a1e1063dce5ed4a1354a0a91416fd250b94d1ccdc8f1f03833a2cb889685f5fcba312e0e291ba32afca93f6973f1a17f0dbc6a4c4633aa29fa0bd65376e8e22b838ca8446d33a280a69a76c8b2cc1fa1cf65bd399cea545d7deb1a529406e5a47256efee6369633021134642dcd91f815f92b45a40bf63789ec720c314132d0e110202dfcab739f38dc4cb311585fd5bd2d2d510072d80715be64608dab40f59569eb2caf2e3e032a3c3038aeae1568f091d043383bb17829a8a2337c5726e7566040706a31388a7efe3bfdeb82bf11a0505ea775cfc43e3a204118d9d6cbad36722125f3c9d93cc9874fe419aa8f0efb850039c4590d70cc26dbecfc
+[*] TLV encryption sorted
+[*] sending response packet
+[*] running method core_set_session_guid
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] sending response packet
+[*] running method core_loadlib
+[*] sending response packet
+[*] running method stdapi_fs_getwd
+[*] sending response packet
+[*] running method stdapi_sys_config_getuid
+[*] sending response packet
+[*] running method stdapi_sys_config_sysinfo
+[*] sending response packet
+[*] running method core_set_uuid
+[*] sending response packet
+[*] running method stdapi_net_config_get_interfaces
+[*] sending response packet
+[*] running method stdapi_net_config_get_routes
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet
+[*] running method stdapi_sys_config_sysinfo
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+[*] sending response packet

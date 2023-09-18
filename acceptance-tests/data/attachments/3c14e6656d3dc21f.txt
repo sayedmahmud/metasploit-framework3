@@ -1,0 +1,64 @@
+Final status:
+Process still alive after running test suite
+stdout and stderr:
+DEBUG:root:[*] running method core_negotiate_tlv_encryption
+DEBUG:root:[*] Negotiating TLV encryption
+DEBUG:root:[*] RSA key: 30820122300d06092a864886f70d01010105000382010f003082010a0282010100bcd1bfe93811fbdb2a8bfd3854c71e85c3b34417914abb730e41fdbbfcdfeb83a4861dc1ab1652e3416983779d5a0760b1ee4813b606194c68f8b9858488f0e34be4add450c8e80a7334e49e062bd6154e7a082eeae9c1c7532d952752ba8ff5583f6c52339c38da08e7cd12cb0d31c6b6bbcf3dd4a87621383727c90d4cd872f9c0c48121b52a398aa3d52fbe216a82ce530ce9dbc90665950a1e3fbd565bb40a84da2590626a8022fbf2d4aca190f0776f7e9008ed96a192fec88ed82da0fc07cabc6a4e80c7c095a68330193c7f320d495731c61e043d50e2093b5931310aa77b432bbb9648ad6bb32871c579a937f44dfacb4eea3d3153c3692dc6377cb10203010001
+DEBUG:root:[*] AES key: 0x7a4c7caf0952ae85d4a6abe68b778ee60396ee0d8d1b4cb1a88f4de9dabd35c
+DEBUG:root:[*] Encrypted AES key: 0xa489174322cba957fca007c84da3bddeb9b32ccfd7431561852adbff9e136d0eae9c261ca5ca552d8136a1fb77105706f0a1a3d689e2f6f23c998347b1fc18afcdc4e149c86703648a70c6ebdf859827def94b95a0f9010c360c8cf21618a9ac83aa429c0a7a26a900d5fb2fbcb5ac90575798f82dc99ca8a3f24651b42ddb45dcb4f53a86def97696055b423e4693981e7815562da709c8d23ba41ce5d49e8357bdc28216e88c03d1d8292f823df7c9c3c0feeb589b547a02dde9405899168d1e73ff8c3cb8c3d9f527a2a3d302022d8bfa332b8f1c356b8428b1d448f5f690dde4fbfa5e63ffe9344cef43360a67885638491b19a3f2900e3c1405cac69001
+DEBUG:root:[*] TLV encryption sorted
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_set_session_guid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_enumextcmd
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_loadlib
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_fs_getwd
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_sys_config_getuid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_sys_config_sysinfo
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_set_uuid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_net_config_get_interfaces
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_net_config_get_routes
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method core_native_arch
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_api
+DEBUG:root:[*] railgun calling: libc.dylib!malloc
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_api
+DEBUG:root:[*] railgun calling: libc.dylib!getpid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_sys_process_getpid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_api
+DEBUG:root:[*] railgun calling: libc.dylib!calloc
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_api
+DEBUG:root:[*] railgun calling: libc.dylib!inet_ntop
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_api
+DEBUG:root:[*] railgun calling: libc.dylib!strcat
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_api_multi
+DEBUG:root:[*] railgun calling: libc.dylib!getpid
+DEBUG:root:[*] railgun calling: libc.dylib!strcat
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_sys_process_getpid
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_memwrite
+DEBUG:root:[*] railgun writing 128 bytes to 0x0x7f973ed655d0
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_memread
+DEBUG:root:[*] railgun reading 128 bytes from 0x0x7f973ed655d0
+DEBUG:root:[*] sending response packet
+DEBUG:root:[*] running method stdapi_railgun_api
+DEBUG:root:[*] railgun calling: libc.dylib!free
+DEBUG:root:[*] sending response packet

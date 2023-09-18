@@ -1,0 +1,42 @@
+use python/meterpreter_reverse_tcp
+Stopping all jobs...
+[4mmsf6[0m post([1m[31mtest/cmd_exec[0m) [0m> irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/pythonmeterpreter_reverse_tcp_session_tlv_logging20230918-4698-sgs58etxt
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> generate -o /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/child-process-rb-python-meterpreter-reverse-tcp20230918-4698-rz47p7.py -f raw AutoVerifySessionTimeout=30 lport=6007 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/pythonmeterpreter_reverse_tcp_debug_log20230918-4698-45rud5txt MeterpreterTryToFork=false PythonMeterpreterDebug=true
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> SessionTlvLogging => file:/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/pythonmeterpreter_reverse_tcp_session_tlv_logging20230918-4698-sgs58etxt
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> [*] Writing 24964 bytes to /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/child-process-rb-python-meterpreter-reverse-tcp20230918-4698-rz47p7.py...
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> to_handler
+[*] Payload Handler Started as Job 6
+[4mmsf6[0m payload([1m[31mpython/meterpreter_reverse_tcp[0m) [0m> 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6007 
+[*] Meterpreter session 8 opened (127.0.0.1:6007 -> 127.0.0.1:49476) at 2023-09-18 22:20:09 +0000
+use test/search
+[4mmsf6[0m post([1m[31mtest/search[0m) [0m> run session=8 AddEntropy=true Verbose=true
+[*] Setup: changing working directory to tmp: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/
+[*] Setup: Creating clean directory
+[*] Creating directory meterpreter-test-dir-lgzesirp
+[*] meterpreter-test-dir-lgzesirp created
+[*] Setup: Now in /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/meterpreter-test-dir-lgzesirp
+[*] Source File Name: meterpreter-test-aexltgrs.txt
+[*] Running against session 8
+[*] Session type is meterpreter and platform is osx
+[*] Starting search date tests
+[+] should search with dates for files
+[+] should search with dates ignores new files
+[+] should search with dates ignores old files
+[+] should search with date inclusive of exact date
+[*] Starting search tests
+[+] should search for new files
+[+] should search recursively for files
+[+] should search with globs for files
+[+] should search with globs ignoring files
+[*] Testing complete in 0.41 seconds
+[*] Passed: 8; Failed: 0; Skipped: 0
+[*] Cleanup: changing working directory back to /Users/runner/work/metasploit-framework/metasploit-framework
+[*] Post module execution completed
+sessions -K
+[4mmsf6[0m post([1m[31mtest/search[0m) [0m> jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 8 closed.
+[4mmsf6[0m post([1m[31mtest/search[0m) [0m> 

